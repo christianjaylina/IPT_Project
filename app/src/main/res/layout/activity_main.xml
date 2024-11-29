@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2DADA"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="177dp"
+        android:layout_height="205dp"
+        android:src="@drawable/notes"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shadowsintolight"
+        android:text="Story Tells"
+        android:textColor="#000000"
+        android:textSize="52dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="216dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#A7D8A7"
+        android:fontFamily="@font/shadowsintolight"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <TextView
+        android:id="@+id/clickableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:fontFamily="@font/shadowsintolight"
+        android:text="Don't have an account?"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
